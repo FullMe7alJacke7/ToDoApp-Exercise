@@ -1,4 +1,4 @@
-<p align="center"><img src="https://imgur.com/gallery/tvmOnTe" width="400"></p>
+<p align="center"><img src="https://i.imgur.com/xbM986z.png" width="400"></p>
 
 ## Project Setup Notes
 
