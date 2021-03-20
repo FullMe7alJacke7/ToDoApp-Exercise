@@ -11,7 +11,7 @@ module.exports = {
     variants: {
         extend: {
             backgroundColor: ['active'],
-        }
+        },
     },
     purge: {
         content: [
