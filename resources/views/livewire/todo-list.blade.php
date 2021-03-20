@@ -24,7 +24,7 @@
                                     <p class="w-full pl-2 font-sans font-normal text-black"> {{ $task['name'] }}</p>
                                     <input type="checkbox"
                                            class="flex-no-shrink p-2 ml-4 mr-2 border-2 rounded hover:border-blue-300 border-gray-300"
-                                           wire:click="taskCompleted('{{$task['name']}}', {!! $loop->index !!})"
+                                           wire:click="taskCompleted('{{$task['name']}}', {{ $loop->index }})"
                                     />
                                 </div>
                             </li>
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="w-full bg-blue-100 p-5 rounded-b-xl p-6 pt-8">
-                <p class="text-black font-normal pb-2 tracking-normal">New Task</p>
+                <p class="text-black font-medium pb-2 pl-2 tracking-normal">New Task</p>
                 <div class="flex flex-row p-2">
                     <input
                         class="border-2 border-gray-400 rounded-l-md w-full hover:border-blue-500 focus:outline-none focus:ring focus:border-blue-300"
