@@ -53,7 +53,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="w-full bg-blue-100 p-5 rounded-b-xl p-6 pt-8">
+            <div class="w-full p-5 rounded-b-xl p-6 pt-8" style="background-color: #edf2f7">
                 <p class="text-black font-medium pb-2 pl-2 tracking-normal">New Task</p>
                 <div class="flex flex-row p-2">
                     <input
